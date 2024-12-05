@@ -7,8 +7,8 @@ const Header = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
 
   return (
-    <div className="container mx-auto">
-      <header className="flex justify-between items-center pt-6 px-6 w-full">
+    <div className="container mx-auto relative">
+      <header className="flex justify-between items-center py-6 px-6 w-full bg-white">
         <div className="logo">
           <img src={easyBankLogo} alt="Easybank Logo" />
         </div>
