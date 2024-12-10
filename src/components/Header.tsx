@@ -1,7 +1,4 @@
 import { useState } from "react";
-import easyBankLogo from "../assets/logo.svg";
-import menu from "../assets/menu.svg";
-import closeMenu from "../assets/close.svg";
 
 const Header = () => {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
@@ -10,7 +7,7 @@ const Header = () => {
     <div className="container mx-auto relative">
       <header className="flex justify-between items-center py-6 px-6 w-full bg-white">
         <div className="logo">
-          <img src={easyBankLogo} alt="Easybank Logo" />
+          <img src="./logo.svg" alt="Easybank Logo" />
         </div>
 
         <nav className="hidden lg:block">
@@ -43,7 +40,7 @@ const Header = () => {
 
         <div className="menuIcon lg:hidden">
           <img
-            src={isMenuVisible ? closeMenu : menu}
+            src={isMenuVisible ? "./close.svg" : "./menu.svg"}
             width={40}
             onClick={() => setIsMenuVisible(!isMenuVisible)}
           />
