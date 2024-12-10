@@ -4,6 +4,10 @@ import API from "./assets/icon-api.svg";
 import Budget from "./assets/icon-budgeting.svg";
 import Onboard from "./assets/icon-onboarding.svg";
 import Online from "./assets/icon-online.svg";
+import Confetti from "./assets/image-confetti.jpg";
+import Currency from "./assets/image-currency.jpg";
+import Plane from "./assets/image-plane.jpg";
+import Restaurant from "./assets/image-restaurant.jpg";
 import "./App.css";
 
 function App() {
@@ -84,6 +88,116 @@ function App() {
                 Our modern web and mobile applications allow you to keep track
                 of your finances wherever you are in the world.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        className="why-us text-center lg:text-left pt-16 px-4"
+        style={{ backgroundColor: "hsl(0, 0%, 98%)" }}
+      >
+        <div className="container px-4 mx-auto">
+          <h2 className="text-5xl mb-10">Latest Articles</h2>
+
+          <div className="grid gap-12 md:gap-8 md:grid-cols-2 lg:grid-cols-4 sm:px-16 md:px-0 mt-14 pb-16">
+            <div className="card bg-white">
+              <div className="card-header">
+                <img
+                  src={Currency}
+                  className="inline-block h-[210px] w-full object-cover"
+                  alt=""
+                />
+              </div>
+
+              <div className="card-body px-6 pb-6">
+                <h3 className="text-xl mt-7 mb-5">
+                  Receive money in any currency with no fees
+                </h3>
+
+                <p
+                  className="text-[0.9rem]"
+                  style={{ color: "hsl(233, 8%, 62%)" }}
+                >
+                  The world is getting smaller and we’re becoming more mobile.
+                  So why should you be forced to only receive money in a single
+                  …
+                </p>
+              </div>
+            </div>
+
+            <div className="card bg-white">
+              <div className="card-header">
+                <img
+                  src={Restaurant}
+                  className="inline-block h-[210px] w-full object-cover"
+                  alt=""
+                />
+              </div>
+
+              <div className="card-body px-6 pb-6">
+                <h3 className="text-xl mt-7 mb-5">
+                  Treat yourself without worrying about money
+                </h3>
+
+                <p
+                  className="mt-3 text-[0.9rem]"
+                  style={{ color: "hsl(233, 8%, 62%)" }}
+                >
+                  Our simple budgeting feature allows you to separate out your
+                  spending and set realistic limits each month. That means you …
+                </p>
+              </div>
+            </div>
+
+            <div className="card bg-white">
+              <div className="card-header">
+                <img
+                  src={Plane}
+                  className="inline-block h-[210px] w-full object-cover"
+                  alt=""
+                />
+              </div>
+
+              <div className="card-body px-6 pb-6">
+                <h3 className="text-xl mt-7 mb-5">
+                  Take your Easybank card wherever you go
+                </h3>
+
+                <p
+                  className="mt-3 text-[0.9rem]"
+                  style={{ color: "hsl(233, 8%, 62%)" }}
+                >
+                  We want you to enjoy your travels. This is why we don’t charge
+                  any fees on purchases while you’re abroad. We’ll even show you
+                  …
+                </p>
+              </div>
+            </div>
+
+            <div className="card bg-white">
+              <div className="card-header">
+                <img
+                  src={Confetti}
+                  className="inline-block h-[210px] w-full object-cover"
+                  alt=""
+                />
+              </div>
+
+              <div className="card-body px-6 pb-6">
+                <h3 className="text-xl mt-7 mb-5">
+                  Our invite-only Beta accounts are now live!
+                </h3>
+
+                <p
+                  className="mt-3 text-[0.9rem]"
+                  style={{ color: "hsl(233, 8%, 62%)" }}
+                >
+                  After a lot of hard work by the whole team, we’re excited to
+                  launch our closed beta. It’s easy to request an invite through
+                  the site ...
+                </p>
+              </div>
             </div>
           </div>
         </div>
