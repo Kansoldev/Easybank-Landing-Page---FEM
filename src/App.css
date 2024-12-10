@@ -37,6 +37,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: hsl(0, 0%, 98%);
 }
 
 a:not([class]) {
@@ -68,5 +69,22 @@ select {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* Custom styles */
+.hero-section {
+  background-color: hsl(0, 0%, 98%);
+  background-image: url("/src/assets/bg-intro-mobile.svg");
+  background-size: contain;
+  background-position-y: -40px;
+}
+
+@media (min-width: 64em) {
+  .hero-section {
+    background-image: url("/src/assets/bg-intro-desktop.svg");
+    background-size: cover;
+    background-position-x: 550px;
+    background-position-y: -275px;
   }
 }
