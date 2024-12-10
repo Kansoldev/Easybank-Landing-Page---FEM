@@ -7,7 +7,9 @@ const Header = () => {
     <div className="container mx-auto relative">
       <header className="flex justify-between items-center py-6 px-6 w-full bg-white">
         <div className="logo">
-          <img src="./logo.svg" alt="Easybank Logo" />
+          <a href="#">
+            <img src="./logo.svg" alt="Easybank Logo" />
+          </a>
         </div>
 
         <nav className="hidden lg:block">

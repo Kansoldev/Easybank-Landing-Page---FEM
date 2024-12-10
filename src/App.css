@@ -37,7 +37,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: hsl(0, 0%, 98%);
 }
 
 a:not([class]) {
