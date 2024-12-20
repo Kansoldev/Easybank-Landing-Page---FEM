@@ -87,3 +87,7 @@ select {
     background-position-y: -275px;
   }
 }
+
+.socials > a:hover path {
+  fill: #31d35c;
+}

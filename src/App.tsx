@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import heroImage from "./assets/image-mockups.png";
 import API from "./assets/icon-api.svg";
 import Budget from "./assets/icon-budgeting.svg";
@@ -205,6 +206,8 @@ function App() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 }
