@@ -12,25 +12,25 @@ const Header = () => {
           </a>
         </div>
 
-        <nav className="hidden lg:block">
+        <nav className="navbar hidden lg:block">
           <ul className="flex justify-between gap-10">
-            <li>
+            <li className="relative">
               <a href="#">Home</a>
             </li>
 
-            <li>
+            <li className="relative">
               <a href="#">About</a>
             </li>
 
-            <li>
+            <li className="relative">
               <a href="#">Contact</a>
             </li>
 
-            <li>
+            <li className="relative">
               <a href="#">Blog</a>
             </li>
 
-            <li>
+            <li className="relative">
               <a href="#">Careers</a>
             </li>
           </ul>

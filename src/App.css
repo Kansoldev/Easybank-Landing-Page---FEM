@@ -72,6 +72,19 @@ select {
 }
 
 /* Custom styles */
+.navbar li:hover::after {
+  content: "";
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  position: absolute;
+  right: 0;
+  bottom: -36px;
+  left: 0;
+  height: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-section {
   background-color: hsl(0, 0%, 98%);
   background-image: url("/src/assets/bg-intro-mobile.svg");
