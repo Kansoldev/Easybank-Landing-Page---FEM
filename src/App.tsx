@@ -35,7 +35,7 @@ function App() {
                   much more.
                 </p>
 
-                <button className="py-3 px-8 text-white font-semibold rounded-3xl bg-gradient-to-r from-[#31d35c] to-[#2bb7da]">
+                <button className="py-3 px-8 text-white font-semibold rounded-3xl bg-gradient-to-r from-[#31d35c] to-[#2bb7da] hover:from-[#46e470] hover:to-[#4ec9e7]">
                   Request Invite
                 </button>
               </div>
