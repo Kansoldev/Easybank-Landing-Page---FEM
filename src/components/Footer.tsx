@@ -131,7 +131,6 @@ const Footer = () => {
 
           <div className="grow-[2] copyright lg:text-right text-white">
             <button className="py-3 px-8 text-white font-semibold rounded-3xl bg-gradient-to-r from-[#31d35c] to-[#2bb7da] inline-block hover:from-[#7df29c] hover:to-[#77d4ec]">
-              {/* <button className="py-3 px-8 text-white font-semibold rounded-3xl bg-red-400 hover:bg-red-300"> */}
               Request Invite
             </button>
 
